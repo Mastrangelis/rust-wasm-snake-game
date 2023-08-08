@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rust Wasm | Snake game</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+    </head>
+    <body>
+        <div class="content-wrapper">
+            <div class="game-controls">
+                <div class="flex">
+                    <div class="label">Status:</div>
+                    <div id="game-status">None</div>
+                </div>
+                <div class="flex">
+                    <div class="label">Points:</div>
+                    <div id="points"></div>
+                </div>
+                <div class="flex">
+                    <button id="game-control-btn">Play</button>
+                </div>
+            </div>
+
+            <canvas id="snake-game-canvas"></canvas>
+        </div>
+        <script src="/bootstrap.js"></script>
+    </body>
+</html>

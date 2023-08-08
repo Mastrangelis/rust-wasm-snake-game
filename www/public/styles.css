@@ -1,0 +1,25 @@
+.content-wrapper {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-controls {
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.label {
+    font-weight: 700;
+    margin-right: 10px;
+}
